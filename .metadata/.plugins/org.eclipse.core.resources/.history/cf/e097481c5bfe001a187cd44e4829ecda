@@ -1,0 +1,28 @@
+package com.punam.Student;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+
+public class App 
+{
+    public static void main( String[] args )
+    {
+       Student stud = new Student();
+       
+       stud.setId(100);
+       stud.setName("Punam");
+       stud.setMarks(25);
+       
+       Configuration config = new Configuration().configure().addAnnotatedClass(Student.class);
+       
+       SessionFactory sessionFact = config.buildSessionFactory();
+       
+       Session session = sessionFact.openSession();
+       
+       session.save(stud);
+       
+       
+    }
+}

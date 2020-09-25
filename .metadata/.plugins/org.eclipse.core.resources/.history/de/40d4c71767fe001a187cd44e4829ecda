@@ -1,0 +1,36 @@
+package com.punam.Student;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
+import org.hibernate.cfg.Configuration;
+import org.hibernate.service.ServiceRegistry;
+
+
+public class App 
+{
+    public static void main( String[] args )
+    {
+       Stud stud = new Stud();
+       
+       stud.setId(101);
+       stud.setName("Aman");
+       stud.setMarks(25);
+       
+       Configuration config = new Configuration().configure().addAnnotatedClass(Stud.class);
+       
+       ServiceRegistry reg = new  StandardServiceRegistryBuilder().applySettings(config.getProperties()).build();
+       
+       SessionFactory sessionFact = config.buildSessionFactory(reg);
+       
+       Session session = sessionFact.openSession();
+       
+       Transaction tx = session.beginTransaction();
+       
+       session.save(stud);
+       
+       tx.commit();
+       
+    }
+}

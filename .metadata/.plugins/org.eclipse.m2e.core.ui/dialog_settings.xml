@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="E:\Hibernate-Workspace"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="internal"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.punam.SecondLevelCache"/>
+			<item value="com.punam.FirstLevelCache"/>
+			<item value="com.punam.EagerFetchTechnique"/>
+			<item value="com.punam.ManyToMany"/>
+			<item value="com.punam.ManyToOne"/>
+			<item value="com.punam.OneToMany"/>
+			<item value="com.punam.OneToOneMapping"/>
+			<item value="com.punam.EmbeddabbleObject"/>
+			<item value="com.punam.FetchingData"/>
+			<item value="com.punam.HibernateBasicAnnotations"/>
+			<item value="com.punam.FirstHibernateExample"/>
+			<item value="com.punam.FirstHibernateProject"/>
+			<item value="com.punam.Student"/>
+			<item value="com.punam.FirstExample"/>
+		</list>
+		<list key="groupId">
+			<item value="com.punam"/>
+		</list>
+		<list key="artifactId">
+			<item value="SecondLevelCache"/>
+			<item value="FirstLevelCache"/>
+			<item value="EagerFetchTechnique"/>
+			<item value="ManyToMany"/>
+			<item value="ManyToOne"/>
+			<item value="OneToMany"/>
+			<item value="OneToOneMapping"/>
+			<item value="EmbeddabbleObject"/>
+			<item value="FetchingData"/>
+			<item value="HibernateBasicAnnotations"/>
+			<item value="FirstHibernateExample"/>
+			<item value="FirstHibernateProject"/>
+			<item value="Student"/>
+			<item value="FirstExample"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.wizards.CustomArchetypeDialog">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item key="width" value="480"/>
+		<item key="height" value="531"/>
+		<item key="x" value="443"/>
+		<item key="y" value="10"/>
+	</section>
+</section>
