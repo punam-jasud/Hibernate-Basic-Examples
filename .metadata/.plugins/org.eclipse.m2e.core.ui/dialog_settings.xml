@@ -3,6 +3,7 @@
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
 			<item value="E:\Hibernate-Workspace"/>
+			<item value="E:\Hibernate-Workspace\SecondLevelCache\pom.xml"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -26,39 +27,23 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="com.punam.SecondLevelCache"/>
-			<item value="com.punam.FirstLevelCache"/>
-			<item value="com.punam.EagerFetchTechnique"/>
-			<item value="com.punam.ManyToMany"/>
-			<item value="com.punam.ManyToOne"/>
-			<item value="com.punam.OneToMany"/>
-			<item value="com.punam.OneToOneMapping"/>
-			<item value="com.punam.EmbeddabbleObject"/>
-			<item value="com.punam.FetchingData"/>
-			<item value="com.punam.HibernateBasicAnnotations"/>
-			<item value="com.punam.FirstHibernateExample"/>
-			<item value="com.punam.FirstHibernateProject"/>
-			<item value="com.punam.Student"/>
-			<item value="com.punam.FirstExample"/>
+			<item value="com.punam.GetVsLoad"/>
+			<item value="com.punam.HibernateObjectStates"/>
+			<item value="com.punam.SqlInHibernate"/>
+			<item value="com.punam.SelectQuery"/>
+			<item value="com.punam.HqlDemo"/>
+			<item value="com.punam.HibernateCachingWithQuery"/>
 		</list>
 		<list key="groupId">
 			<item value="com.punam"/>
 		</list>
 		<list key="artifactId">
-			<item value="SecondLevelCache"/>
-			<item value="FirstLevelCache"/>
-			<item value="EagerFetchTechnique"/>
-			<item value="ManyToMany"/>
-			<item value="ManyToOne"/>
-			<item value="OneToMany"/>
-			<item value="OneToOneMapping"/>
-			<item value="EmbeddabbleObject"/>
-			<item value="FetchingData"/>
-			<item value="HibernateBasicAnnotations"/>
-			<item value="FirstHibernateExample"/>
-			<item value="FirstHibernateProject"/>
-			<item value="Student"/>
-			<item value="FirstExample"/>
+			<item value="GetVsLoad"/>
+			<item value="HibernateObjectStates"/>
+			<item value="SqlInHibernate"/>
+			<item value="SelectQuery"/>
+			<item value="HqlDemo"/>
+			<item value="HibernateCachingWithQuery"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -94,13 +79,21 @@
 	<section name="org.eclipse.m2e.core.ui.internal.wizards.CustomArchetypeDialog">
 	</section>
 	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
 	</section>
 	<section name="org.eclipse.m2e.core.pom.dependencies">
 	</section>
 	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
 		<item key="width" value="480"/>
 		<item key="height" value="531"/>
-		<item key="x" value="443"/>
-		<item key="y" value="10"/>
+		<item key="x" value="449"/>
+		<item key="y" value="163"/>
 	</section>
 </section>
