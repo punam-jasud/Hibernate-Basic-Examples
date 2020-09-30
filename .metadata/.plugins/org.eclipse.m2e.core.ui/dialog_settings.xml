@@ -27,6 +27,8 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.punam.SpringHibernateIntegrationDemo"/>
+			<item value="com.punam.SpringHibernateIntegration"/>
 			<item value="com.punam.GetVsLoad"/>
 			<item value="com.punam.HibernateObjectStates"/>
 			<item value="com.punam.SqlInHibernate"/>
@@ -38,6 +40,8 @@
 			<item value="com.punam"/>
 		</list>
 		<list key="artifactId">
+			<item value="SpringHibernateIntegrationDemo"/>
+			<item value="SpringHibernateIntegration"/>
 			<item value="GetVsLoad"/>
 			<item value="HibernateObjectStates"/>
 			<item value="SqlInHibernate"/>
@@ -95,5 +99,18 @@
 		<item key="height" value="531"/>
 		<item key="x" value="449"/>
 		<item key="y" value="163"/>
+	</section>
+	<section name="wizardPage">
+		<list key="groupId">
+			<item value="SpringWithHibernate"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="SpringWithHibernate"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
 	</section>
 </section>
