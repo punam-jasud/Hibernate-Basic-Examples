@@ -8,6 +8,9 @@ import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
 
+import org.hibernate.annotations.Cascade;
+import org.hibernate.annotations.CascadeType;
+
 @Entity
 public class Student {
 	
@@ -17,6 +20,7 @@ public class Student {
 	private int marks;
 	
 	@OneToMany
+	@Cascade({CascadeType.SAVE_UPDATE , CascadeType.DELETE })
 	private List<Laptop> latop = new ArrayList<Laptop>();
 	
 	

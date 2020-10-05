@@ -1,8 +1,0 @@
-package com.punam.Student;
-
-import javax.persistence.Entity;
-
-@Entity
-public class Laptop {
-	
-}

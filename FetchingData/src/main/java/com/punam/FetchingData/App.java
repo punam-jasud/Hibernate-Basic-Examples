@@ -18,12 +18,23 @@ public class App
         SessionFactory sessionFact = config.buildSessionFactory(reg);   
         Session session = sessionFact.openSession();
         
-        Transaction tx = session.beginTransaction();
+        alien.setAid(103);         
+        alien.setAname("Fang Lie");
+        alien.setColor("Purple");
         
-        alien = (AlienFetchData)session.get(AlienFetchData.class, 102);
+        Transaction tx2 = session.beginTransaction();  //Transaction 1 
+          
+        session.save(alien);
        
-        tx.commit();
+        tx2.commit();
+           
+        Transaction tx1 = session.beginTransaction();   //Transaction 2
+        
+        alien = (AlienFetchData)session.get(AlienFetchData.class, 103);
+       
+        tx1.commit();
         
         System.out.println(alien);
+        session.close();
     }
 }

@@ -38,14 +38,9 @@ public class AlienEager {
 	public void setLaps(Collection<LaptopEagar> laps) {
 		this.laps = laps;
 	}
-	
 	@Override
 	public String toString() {
 		return "AlienEager [aid=" + aid + ", aname=" + aname + ", laps=" + laps + "]";
 	}
-	
-	
-	
-	
 	
 }

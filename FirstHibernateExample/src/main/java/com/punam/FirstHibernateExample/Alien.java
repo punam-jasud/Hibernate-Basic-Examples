@@ -31,6 +31,11 @@ public class Alien {
 		this.color = color;
 	}
 	
+	@Override
+	public String toString() {
+		return "Alien [aid=" + aid + ", aname=" + aname + ", color=" + color + "]";
+	}
+	
 	
 	
 }

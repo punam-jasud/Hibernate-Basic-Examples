@@ -46,5 +46,6 @@ public class App
         System.out.println("Sum : "+sum);
       
        session.getTransaction().commit();
+       session.close();
     }
 }

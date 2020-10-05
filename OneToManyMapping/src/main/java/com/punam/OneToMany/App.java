@@ -42,5 +42,6 @@ public class App
         
          tx.commit();
         
+         session.close();
     }
 }

@@ -1,6 +1,7 @@
 package com.punam.EagerFetchTechnique;
 
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 
@@ -39,7 +40,6 @@ public class LaptopEagar {
 	public void setAlien(AlienEager alien) {
 		this.alien = alien;
 	}
-	
 	@Override
 	public String toString() {
 		return "LaptopEagar [lid=" + lid + ", lname=" + lname + ", price=" + price + ", alien=" + alien + "]";

@@ -22,17 +22,9 @@ public class App
         
         Transaction tx = session.beginTransaction();
         
-        AlienEager a1 = session.get(AlienEager.class, 101);
-        
-		
-        
-		  System.out.println(a1.getAname());
-		  
-			/*
-			 * Collection<LaptopEagar> laps = a1.getLaps(); for (LaptopEagar laptopEagar :
-			 * laps) { System.out.println(laptopEagar); }
-			 */
-		 
+        AlienEager a1 = session.get(AlienEager.class, 102);  //See console to check fired query ..
+     
+		System.out.println(a1.getAname());
       
         tx.commit();
     }
